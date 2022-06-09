@@ -1,8 +1,8 @@
 import React from 'react';
-
+// import photo from '../../images/photo.jpg'
 const About = () => {
     return (
-     <section className='lg:mt-28 lg:mb-28'>
+     <section  className='lg:mt-28 lg:mb-28'>
          <div className='container mx-auto'>
          <h1 className="text-[#145A32] text-center font-bold mb-11 mt-11 lg:text-4xl text-2xl">About</h1>
          <div className="grid grid-cols-1 lg:grid-cols-2">
