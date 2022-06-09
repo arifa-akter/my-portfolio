@@ -18,7 +18,7 @@ const Banner = () => {
                     <p className='mt-6 lg:ml-40 ml-10'>
                       <button class="btn btn-primary mr-6">contact Me</button>
                       
-                          <a  href="https://drive.google.com/file/d/1iRP0p58Lr0_rr8ZRme0q0JYfT7dcvUy8/view?usp=sharing" rel="noopener" target="_blank" >
+                          <a  href="https://drive.google.com/file/d/1iRP0p58Lr0_rr8ZRme0q0JYfT7dcvUy8/view?usp=sharing"  rel="noreferrer" target="_blank" >
                           <button class="btn btn-secondary text-white">Resume </button> 
                           </a>
                  
