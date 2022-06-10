@@ -1,8 +1,9 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Common.css'
 const Banner = () => {
     return (
-     <section className='banner-bg'>
+     <section id="banner"className='banner-bg'>
             <div className="container mx-auto">
                 {/* <div className='flex justify-center mb-7'>
                 <div className="avatar">
@@ -16,7 +17,7 @@ const Banner = () => {
                      <h1 className="text-[#145A32] text-center font-bold lg:text-4xl text-2xl"> I am Arifa Akter Choity </h1>
                      <h1 className="text-[#D4AC0D] text-center font-bold lg:text-4xl text-2xl pt-3">Junior mern stack web Devloper</h1>
                     <p className='mt-6 lg:ml-40 ml-10'>
-                      <button class="btn btn-primary mr-6">contact Me</button>
+                      <Link to="/contact"><button className="btn btn-primary mr-6">contact Me</button></Link>
                       
                           <a  href="https://drive.google.com/file/d/1iRP0p58Lr0_rr8ZRme0q0JYfT7dcvUy8/view?usp=sharing"  rel="noreferrer" target="_blank" >
                           <button class="btn btn-secondary text-white">Resume </button> 

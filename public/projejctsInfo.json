@@ -1,0 +1,47 @@
+[
+    {
+      "id": 1,
+      "title": "Table fan manufacture",
+      "name": "manufacture",
+      "image1": "https://i.ibb.co/h1PXzcg/project1.png",
+      "image2": "https://i.ibb.co/BwQPnXQ/table1.png",
+      "image3": "https://i.ibb.co/6nRWHnP/table2.png",
+      "image4": "https://i.ibb.co/z4ds7Zm/table3.png",
+      "linkSite": "https://table-fan-parts.web.app/",
+      "GitHubClientSite": "https://github.com/arifa-akter/table-fan-manufacture",
+      "GitHubServerSite": "https://github.com/arifa-akter/table-fan-manufacture-server",
+      "describe1": "This is a manufacture base website there customer can buy product if he/ she fullfil min quantity and available quantity",
+      "describe2": "this website eight section in home page . review ,banner , tools service time , offer etc and it has also dashboard and also my portfolio and purchase route which is protected . this website has admin which is make admin and add product manage order manage product etc admin can not see user route .user can not see any admin route and also .user can see my profile order add review .admin and user can see my profile and my portfolio and also blogs part",
+      "technology": " css html5 , firebase , react ,,mongodb, toastify, react form hook, tailwind"
+    },
+    {
+      "id": 2,
+      "title": "car Inventory",
+      "name": "Inventory",
+      "image1": "https://i.ibb.co/mt463Qm/project2.png",
+      "image2": "https://i.ibb.co/rcQnFLz/car-Inventory1.png",
+      "image3": "https://i.ibb.co/9Vk9VRK/car-Inventory2.png",
+      "image4": "https://i.ibb.co/Fn3vgM9/car-Inventory3.png",
+      "linkSite": "https://car-inventory-613c5.web.app/",
+      "GitHubClientSite": "https://github.com/arifa-akter/car-inventory-client",
+      "GitHubServerSite": "https://github.com/arifa-akter/car-inventory-server",
+      "describe1": "This is a inventory base website there it is not e-commerce base project.customer can buy a product for her business",
+      "describe2": "this website have banner section . car inventory section , and also there extra two part in home page which is latest news and service timing ,when you click on up date button you go to privet route and when you login you can see update collection myItem manage inventory . you can delete and update and add item which store in upDate collection and myItem route.",
+      "technology": "css html5 , firebase , react ,mongodb, toastify ,bootstrap"
+    },
+    {
+      "id": 3,
+      "title": "Wild photographer",
+      "name": "single Service",
+      "image1": "https://i.ibb.co/VV4qqxD/project3.png",
+      "image2": "https://i.ibb.co/KGT9QNf/wild1.png",
+      "image3": "https://i.ibb.co/4P0JsbT/wild3.png",
+      "image4": "https://i.ibb.co/bdG53kj/wild2.png",
+      "linkSite": "https://wild-photographer-1fd87.web.app/",
+      "GitHubClientSite": "https://github.com/arifa-akter/wild-photographer",
+      "GitHubServerSite": "https://github.com/arifa-akter/table-fan-manufacture-server",
+      "describe1": "This website make for single service provider.he/she can provide her service for business",
+      "describe2": "there use firebase authentication login and sign up with google and github email and password .error handle loading spinner and also use toast .use protected route .there header section service section about section blogs section gallery section and use protected check out section",
+      "technology": " css html5 , firebase , react , bootstrap "
+    }
+  ]

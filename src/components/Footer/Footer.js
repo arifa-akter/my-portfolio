@@ -4,7 +4,7 @@ const Footer = () => {
     const today = new Date ()
     const year = today.getFullYear()
     return (
-       <section>
+       <section className='mt-11'>
            <div className="container mx-auto">
                <hr />
               <div className='pt-11 pb-11'>

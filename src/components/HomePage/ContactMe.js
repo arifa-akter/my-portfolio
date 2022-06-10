@@ -3,7 +3,7 @@ import contactMe from '../../images/contactMe.png'
 
 const ContactMe = () => {
     return (
-        <section className='lg:mt-28 lg:mb-28'>
+        <section id="contact" className='lg:mt-28 lg:mb-28 mt-28'>
             <div className="container mx-auto">
             <h1 className="text-[#145A32] text-center font-bold mb-20 mt-11 lg:text-4xl text-2xl">Contact Me</h1>
              <div className='grid grid-cols-1 lg:grid-cols-2 gap-2 m-3' >

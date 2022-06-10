@@ -1,5 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import './Header.css'
 const Header = () => {
     const[open ,setOpen]=useState(false)
@@ -17,11 +18,11 @@ const Header = () => {
                 </div>
                 <ul className={`md:flex font-sans font-medium duration-500 
                 ease-in md:static w-full absolute ${open?'top-[72px] right-0 bg-white':'top-[-300px] right-0 bg-white'}`}>
-                    <li className='md:mr-5 md:text-xl text-center md:py-0 p-3 text-primary border-y-2 md:border-y-0'>Home</li>
-                    <li className='md:mr-5 md:text-xl text-center md:py-0 p-3 text-primary border-y-2 md:border-y-0'>About</li>
-                    <li className='md:mr-5 md:text-xl text-center md:py-0 p-3 text-primary border-y-2 md:border-y-0'>project</li>
-                    <li className='md:mr-5 md:text-xl text-center md:py-0 p-3 text-primary border-y-2 md:border-y-0'>Blogs</li>
-                    <li className='md:mr-5 md:text-xl text-center md:py-0 p-3 text-primary border-y-2 md:border-y-0'>contact Me</li>
+                   <Link to="/home"> <li className='md:mr-5 md:text-xl text-center md:py-0 p-3 text-primary border-y-2 md:border-y-0'>Home</li></Link>
+                   <a href="/home#about"><li className='md:mr-5 md:text-xl text-center md:py-0 p-3 text-primary border-y-2 md:border-y-0'>About</li></a>
+                   <a href="/home#project"><li className='md:mr-5 md:text-xl text-center md:py-0 p-3 text-primary border-y-2 md:border-y-0'>project</li></a>
+                    <Link to="/Blogs"><li className='md:mr-5 md:text-xl text-center md:py-0 p-3 text-primary border-y-2 md:border-y-0'>Blogs</li></Link>
+                   <a href="/home#contact"> <li className='md:mr-5 md:text-xl text-center md:py-0 p-3 text-primary border-y-2 md:border-y-0'>contact Me</li></a>
                 </ul>  
             </div>
         </div>

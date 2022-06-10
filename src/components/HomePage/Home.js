@@ -6,12 +6,12 @@ import Projects from './Projects';
 
 const Home = () => {
     return (
-        <div>
+        <section id="Home">
             <Banner></Banner>
             <About></About>
             <Projects></Projects>
             <ContactMe></ContactMe>
-        </div>
+        </section>
     );
 };
 
