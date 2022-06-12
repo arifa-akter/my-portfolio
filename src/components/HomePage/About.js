@@ -21,7 +21,7 @@ const About = () => {
                   <i class="fa fa-linkedin-square pr-5 text-xl text-primary" aria-hidden="true"></i>
                   </a>
                   <a  href="https://github.com/arifa-akter"  rel="noreferrer" target="_blank" >
-                  <i class="fa fa-github-square" aria-hidden="true"></i>
+                  <i class="fa fa-github-square pr-5 text-xl text-primary" aria-hidden="true"></i>
                   </a>
 
                   
