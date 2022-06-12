@@ -17,9 +17,14 @@ const About = () => {
                   <p className='pb-5'>I love to draw along with this l also enjoy traveling and exploring the ever green nature .
                   I love to communicate with people specially with children.</p>
                   <p>
-                  <i class="fa fa-facebook pr-5 text-xl text-primary" aria-hidden="true"></i>
+                  <a  href="https://www.linkedin.com/in/arifa-choity-905182241/"  rel="noreferrer" target="_blank" >
                   <i class="fa fa-linkedin-square pr-5 text-xl text-primary" aria-hidden="true"></i>
-                  <i class="fa fa-instagram pr-5 text-xl text-primary" aria-hidden="true"></i>
+                  </a>
+                  <a  href="https://github.com/arifa-akter"  rel="noreferrer" target="_blank" >
+                  <i class="fa fa-github-square" aria-hidden="true"></i>
+                  </a>
+
+                  
                   </p>
                   </div>
              </div>
